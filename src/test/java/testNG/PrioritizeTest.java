@@ -13,7 +13,7 @@ public class PrioritizeTest {
     public void testCreate(){
         System.out.println("Create");
     }
-    //// enabled = false is used to temporarily skip this test (e.g., under development or known to fail)
+    //// enabled = false is used to temporarily skip this test (Ex:  under development or known to fail)
     @Test(priority = 2, enabled = false)
     public void testEdit(){
         System.out.println("Edit");
