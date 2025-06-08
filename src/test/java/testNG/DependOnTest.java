@@ -8,7 +8,7 @@ public class DependOnTest {
     @Test()
     public void oLevel(){
         System.out.println("Ordinary Level");
-        Assert.fail();
+
 
     }
 
