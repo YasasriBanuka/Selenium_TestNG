@@ -1,5 +1,6 @@
 package testNG;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class PrioritizeTest {
@@ -7,6 +8,7 @@ public class PrioritizeTest {
     @Test(priority = 0)
     public void loginTest(){
         System.out.println("Login");
+        Assert.assertEquals("1","1");
     }
     //priority means indicates the intended execution order if the test were enabled
     @Test(priority = 1)
