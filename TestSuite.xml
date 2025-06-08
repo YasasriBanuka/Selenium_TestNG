@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<suite name="Test suite">
+
+    <test name="Prioritize Test Case">
+        <classes>
+            <class name="testNG.PrioritizeTest"/>
+        </classes>
+    </test>
+
+    <test name="DependOn Test Case">
+        <classes>
+            <class name="testNG.DependOnTest"/>
+        </classes>
+    </test>
+
+</suite>
+
