@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Prioritize Test Case(failed)">
+    <classes>
+      <class name="testNG.PrioritizeTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- testNG.PrioritizeTest -->
+    </classes>
+  </test> <!-- Prioritize Test Case(failed) -->
+</suite> <!-- Failed suite [Test suite] -->
